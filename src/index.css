@@ -1,13 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    @apply bg-darkGrayishBlue font-Manrope text-lightCyan
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.link-text::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    left: 1px;
+    bottom: 1px;
+    transition: all .2s;
+    @apply bg-blue-500
 }
+
+.link-text:hover::after {
+    width: 100%;
+}
+
+hr {
+    height: 1px;
+    width: 100%;
+    opacity: .5;
+}
+
