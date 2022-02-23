@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Advice-Gen-App/static/css/main.c86b1791.css",
+    "main.js": "/Advice-Gen-App/static/js/main.e6ef1ac1.js",
+    "static/js/787.bc996bb6.chunk.js": "/Advice-Gen-App/static/js/787.bc996bb6.chunk.js",
+    "index.html": "/Advice-Gen-App/index.html",
+    "static/media/icon-dice.svg": "/Advice-Gen-App/static/media/icon-dice.08691e4c24c11b5ba564e06b1f6bcbf3.svg",
+    "main.c86b1791.css.map": "/Advice-Gen-App/static/css/main.c86b1791.css.map",
+    "main.e6ef1ac1.js.map": "/Advice-Gen-App/static/js/main.e6ef1ac1.js.map",
+    "787.bc996bb6.chunk.js.map": "/Advice-Gen-App/static/js/787.bc996bb6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c86b1791.css",
+    "static/js/main.e6ef1ac1.js"
+  ]
+}
